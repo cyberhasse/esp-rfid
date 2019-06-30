@@ -1,3 +1,18 @@
+# WARNING!
+
+This is a personal version of the great esp-rfid firmware!<br>
+I needed a doorbell button so i fixed it in this version,<br>
+i had to redo the unlock-button pin to doorbell and fix<br>
+logging it to mqtt.<br>
+I also added support for longer cables, mine is approx. 1m<br>
+I've had some problems with rfid reader not responding over time<br>
+but i added code for re-init it every sync (in mqtt webui).<br>
+I AM NO PROGRAMMER SO USE WITH CAUTION!<br>
+I use this and think it's stable as a rock<br>
+<br>
+Regards to all involved in this great firmware making it possible.
+
+
 # Announcement
 
 We are rising funds for next version (2.0) of ESP-RFID.
