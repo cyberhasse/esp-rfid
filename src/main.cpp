@@ -243,8 +243,8 @@ void ICACHE_RAM_ATTR loop()
 		Serial.println("Button has been pressed");
 #endif
 		writeLatest("", "(used open/close button)", 1);
-		writeEvent("INFO", "sys", "Dingelidong...", "");
-//		activateRelay = true;
+		writeEvent("INFO", "sys", "Dingelidong...", ""); //Log doorbell button to mqtt
+//		activateRelay = true; //DO NOT ACTIVATE RELAY!!!
 	}
 
 	if (wifipin != 255 && configMode && !wmode)

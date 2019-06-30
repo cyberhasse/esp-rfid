@@ -82,7 +82,7 @@ bool ICACHE_FLASH_ATTR loadConfiguration()
 		}
 		int rfidgain = hardware["rfidgain"];
 		setupMFRC522Reader(rfidss, rfidgain);
-		SPI.setClockDivider(SPI_CLOCK_DIV8);
+		SPI.setClockDivider(SPI_CLOCK_DIV8); //This helps using longer cable, mine is approx 1m
 	}
 	else if (readertype == 2 || readertype == 6)
 	{

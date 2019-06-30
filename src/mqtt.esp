@@ -83,7 +83,7 @@ void mqtt_publish_heartbeat(time_t heartbeat) {
 		SPI.setClockDivider(SPI_CLOCK_DIV8);
 	#endif
 }
-
+// Commented out some stuff here to make it more easy with homeassistant
 void mqtt_publish_access(time_t accesstime, String const &isknown, String const &type, String const &user, String const &uid) {
 	if (mqttClient.connected()) {
 		String stopic (mqttTopic);

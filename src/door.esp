@@ -9,7 +9,7 @@ void doorStatus(/* arguments */) {
   if ((digitalRead(doorstatpin) == LOW) && (lastDoorState == 0))
   {
           writeEvent("INFO", "door", "Door Closed", "");
-          delay(2000); //Stop bouncing door from spamming
+          delay(2000); //Stop bouncing door from spamming log
           #ifdef DEBUG
                 Serial.println("[ INFO ] Your Door is Closed");
           #endif
