@@ -9,7 +9,7 @@ I've had some problems with rfid reader not responding over time<br>
 but i added code for re-init it every sync (in mqtt webui).<br>
 I AM NO PROGRAMMER SO USE WITH CAUTION!<br>
 I use this and think it's stable as a rock<br>
-<br>Admin Password: admin<br>
+Admin Password: admin<br>
 Regards to all involved in this great firmware making it possible.
 
 
